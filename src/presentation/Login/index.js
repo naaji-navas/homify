@@ -1,7 +1,7 @@
 import React from "react";
-import { Link } from "react-router-dom";
-
-function Login() {
+import {  Link, Route  } from "react-router-dom";
+import { routes } from "../Common/Routes";
+ffunction Login() {
   return (
     <div className="login">
       <section className="h-screen">
@@ -11,6 +11,7 @@ function Login() {
               <img
                 src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/draw2.webp"
                 className="w-full"
+                alt="Sample "
                 alt="Sample "
               />
             </div>
