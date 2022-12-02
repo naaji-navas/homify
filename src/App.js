@@ -8,15 +8,16 @@ import "./presentation/Common/Style/style.css";
 //component imports
 import LandingPage from "./presentation/LandingPage";
 import Login from "./presentation/Login";
-import Apartment from "./presentation/Apartment";
+
 
 function App() {
   return (
     <Router>
       <Switch>
         <Route exact path={routes.LOGIN} component={Login} />
+        <Route exact path={routes.SIGNUP} component={SignUp} />
         <Route exact path={routes.LANDINGPAGE} component={LandingPage} />
-        <Route exact path={routes.APARTMENT} component={Apartment} />
+
       </Switch>
     </Router>
   );
