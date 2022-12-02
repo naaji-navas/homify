@@ -10,11 +10,11 @@ import LandingPage from "./presentation/LandingPage";
 import LandingPage1 from "./presentation/LandingPage1";
 import LandingPage2 from "./presentation/LandingPage2";
 import Login from "./presentation/Login";
-
+import SignUp from "./presentation/SignUp";
+import Profile from "./presentation/Profile";
 import Apartment from "./presentation/Apartment";
 import Apartment1 from "./presentation/Apartment1";
 import Apartment2 from "./presentation/Apartment2";
-=======
 
 
 
@@ -24,8 +24,10 @@ function App() {
       <Switch>
         <Route exact path={routes.LOGIN} component={Login} />
         <Route exact path={routes.SIGNUP} component={SignUp} />
+        <Route exact path={routes.PROFILE} component={Profile} />
         <Route exact path={routes.LANDINGPAGE} component={LandingPage} />
-
+        <Route exact path={routes.LANDINGPAGE1} component={LandingPage1} />
+        <Route exact path={routes.LANDINGPAGE2} component={LandingPage2} />
         <Route exact path={routes.APARTMENT} component={Apartment} />
         <Route exact path={routes.APARTMENT1} component={Apartment1} />
         <Route exact path={routes.APARTMENT2} component={Apartment2} />
