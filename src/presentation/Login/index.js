@@ -1,7 +1,7 @@
 import React from "react";
 import {  Link, Route  } from "react-router-dom";
 import { routes } from "../Common/Routes";
-ffunction Login() {
+function Login() {
   return (
     <div className="login">
       <section className="h-screen">
