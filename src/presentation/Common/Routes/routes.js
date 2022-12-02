@@ -9,6 +9,9 @@ const routes = {
   APARTMENT: "/apartment",
   APARTMENT1: "/apartment1",
   APARTMENT2: "/apartment2",
+  OWNERREG: "/ownerreg",
+  PAYNOW: "/paynow",
+  GATEWAY: "/gateway",
 }
 
 routes.LOGIN = routes.INITIAL;

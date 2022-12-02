@@ -13,14 +13,13 @@ const App = () => (
         <Sidebar />
       </Sider>
       <Layout>
-        <Header>Header</Header>
+        <Header></Header>
         <Content className="p-3">
           <Main />
         </Content>
-        <Footer>Footer</Footer>
       </Layout>
-    </Layout>
+    </Layout> 
   </>
-);
+)
 
 export default App;

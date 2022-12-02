@@ -15,6 +15,9 @@ import Profile from "./presentation/Profile";
 import Apartment from "./presentation/Apartment";
 import Apartment1 from "./presentation/Apartment1";
 import Apartment2 from "./presentation/Apartment2";
+import OwnerReg from "./presentation/OwnerReg";
+import PayNow from "./presentation/PayNow";
+import Gateway from "./presentation/Gateway";
 
 
 
@@ -31,6 +34,9 @@ function App() {
         <Route exact path={routes.APARTMENT} component={Apartment} />
         <Route exact path={routes.APARTMENT1} component={Apartment1} />
         <Route exact path={routes.APARTMENT2} component={Apartment2} />
+        <Route exact path={routes.OWNERREG} component={OwnerReg} />
+        <Route exact path={routes.PAYNOW} component={PayNow} />
+        <Route exact path={routes.GATEWAY} component={Gateway} />
 
       </Switch>
     </Router>

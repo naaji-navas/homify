@@ -19,7 +19,6 @@ const App = () => (
           <Top />
           <Main />
         </Content>
-        <Footer>Footer</Footer>
       </Layout>
     </Layout>
   </>

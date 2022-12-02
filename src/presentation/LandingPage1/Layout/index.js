@@ -14,12 +14,11 @@ const App = () => (
         <Sidebar />
       </Sider>
       <Layout>
-        <Header>Header</Header>
+        <Header></Header>
         <Content className="p-3">
           <Top />
           <Main />
         </Content>
-        <Footer>Footer</Footer>
       </Layout>
     </Layout>
   </>
