@@ -4,6 +4,8 @@ const routes = {
   LOGIN: "/login",
   LANDINGPAGE: "/landingpage",
   APARTMENT: "/apartment",
+  APARTMENT1: "/apartment1",
+  APARTMENT2: "/apartment2",
 
 };
 routes.LOGIN = routes.INITIAL;
