@@ -1,9 +1,10 @@
 import { Layout } from "antd";
 import React from "react";
 
-import Main from "../Main";
+
 import Sidebar from "../Sidebar";
 import Top from "../Top";
+import Bottom from "../Bottom";
 
 const { Header, Footer, Sider, Content } = Layout;
 
@@ -14,12 +15,11 @@ const App = () => (
         <Sidebar />
       </Sider>
       <Layout>
-        <Header>Header</Header>
+        <Header></Header>
         <Content className="p-3">
           <Top />
-          <Main />
+          <Bottom/>
         </Content>
-        <Footer>Footer</Footer>
       </Layout>
     </Layout>
   </>

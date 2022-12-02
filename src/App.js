@@ -1,4 +1,4 @@
-import { Apartment } from "@mui/icons-material";
+// import { Apartment } from "@mui/icons-material";
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { routes } from "./presentation/Common/Routes";
@@ -8,6 +8,7 @@ import "./presentation/Common/Style/style.css";
 //component imports
 import LandingPage from "./presentation/LandingPage";
 import Login from "./presentation/Login";
+import Apartment from "./presentation/Apartment";
 
 function App() {
   return (
