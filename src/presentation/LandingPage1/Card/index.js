@@ -3,7 +3,7 @@ import React from 'react'
 function Card() {
   return (
         <div class="card text-bg-dark mt-4 text-bold w-25 m-3">
-            <img src="https://cdn.pixabay.com/photo/2016/11/18/17/46/house-1836070__340.jpg" class="card-img" alt="..."/>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBYTIZYBTmjVxTHn8usxuwS8R9z6PCvz2urEAAtkDF&s" class="card-img" alt="..."/>
             <div class="d-flex card-img-overlay flex-column-reverse">
               <p class="card-text">This is a wider card with supporting text </p>
               <p class="card-text"><small>Last updated 3 mins ago</small></p>

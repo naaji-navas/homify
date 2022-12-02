@@ -1,9 +1,8 @@
 import { Layout } from "antd";
 import React from "react";
 
-import Main from "../Main";
 import Sidebar from "../Sidebar";
-import Top from "../Top";
+import Main from "../Main";
 
 const { Header, Footer, Sider, Content } = Layout;
 
@@ -16,7 +15,6 @@ const App = () => (
       <Layout>
         <Header>Header</Header>
         <Content className="p-3">
-          <Top />
           <Main />
         </Content>
         <Footer>Footer</Footer>

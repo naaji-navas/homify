@@ -9,7 +9,7 @@ const { Header, Footer, Sider, Content } = Layout;
 
 const App = () => (
   <>
-    <Layout className="w-100" >
+    <Layout className="w-100">
       <Sider className="w-50">
         <Sidebar />
       </Sider>
