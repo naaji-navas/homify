@@ -1,4 +1,7 @@
 import React from "react";
+import { Link, Route } from "react-router-dom";
+import { routes } from "../Common/Routes";
+
 function Login() {
   return (
     <div className="login">
@@ -9,7 +12,7 @@ function Login() {
               <img
                 src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/draw2.webp"
                 className="w-full"
-                alt="Sample image"
+                alt="Sample "
               />
             </div>
             <div className="xl:ml-20 xl:w-5/12 lg:w-5/12 md:w-8/12 mb-12 md:mb-0">
@@ -114,12 +117,15 @@ function Login() {
                   </a>
                 </div>
                 <div className="text-center lg:text-left">
-                  <button
-                    type="button"
-                    className="inline-block px-7 py-3 bg-blue-600 text-white font-medium text-sm leading-snug uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
-                  >
-                    Login
-                  </button>
+                  <Link to="/signup">
+                    <button
+                      type="button"
+                      onClick={<Route exact path={routes.SIGNUP} />}
+                      className="inline-block px-7 py-3 bg-blue-600 text-white font-medium text-sm leading-snug uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
+                    >
+                      Login
+                    </button>
+                  </Link>
                   <p className="text-sm font-semibold mt-2 pt-1 mb-0">
                     Don't have an account?
                     <a
