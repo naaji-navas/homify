@@ -1,5 +1,6 @@
 import React from 'react'
 import SearchIcon from '@mui/icons-material/Search';
+import { Tabs, TabList, TabPanels, Tab, TabPanel } from '@chakra-ui/react'
 
 function index() {
   return (
@@ -20,6 +21,7 @@ function index() {
                 <button class="btn btn-outline-primary" type="submit"><SearchIcon/></button>
               </form>
           </div>
+          
        </div>
     </div>
   )

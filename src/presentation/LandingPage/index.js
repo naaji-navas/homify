@@ -1,11 +1,10 @@
 import React from "react";
 import "./style.css";
-import Sidebar from './Sidebar'
+import Layout from './Layout'
 function index() {
   return (
     <div>
-      <Sidebar/>
-      
+      <Layout/>
     </div>
   );
 }
