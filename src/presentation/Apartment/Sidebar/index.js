@@ -1,6 +1,5 @@
 import React from 'react';
 import Top from '../Top';
-import Main from '../Main';
 import { UploadOutlined, UserOutlined, VideoCameraOutlined } from '@ant-design/icons';
 import { Layout, Menu } from 'antd';
 const { Header, Content, Footer, Sider } = Layout;
