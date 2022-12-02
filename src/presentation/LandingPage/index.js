@@ -1,10 +1,11 @@
 import React from "react";
-import Header from "../Common/UI/Header";
 import "./style.css";
+import Sidebar from './Sidebar'
 function index() {
   return (
     <div>
-      <Header />
+      <Sidebar/>
+      
     </div>
   );
 }
