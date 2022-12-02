@@ -12,7 +12,7 @@ import Login from "./presentation/Login";
 import Apartment from "./presentation/Apartment";
 import Apartment1 from "./presentation/Apartment1";
 import Apartment2 from "./presentation/Apartment2";
-=======
+import SignUp from "./presentation/SignUp";
 
 
 
