@@ -7,7 +7,7 @@ import Main from '../Main'
 
 const { Header, Footer, Sider, Content } = Layout;
 
-const App: React.FC = () => (
+const App = () => (
   <>
     
 
@@ -19,7 +19,6 @@ const App: React.FC = () => (
             <Top/>
             <Main/>
         </Content>
-        <Footer>Footer</Footer>
       </Layout>
     </Layout>
   </>
