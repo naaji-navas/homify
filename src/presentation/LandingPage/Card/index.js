@@ -7,9 +7,9 @@ function Card() {
             <Link to="/apartment">
               <img src="https://cdn.pixabay.com/photo/2016/11/18/17/46/house-1836070__340.jpg" class="card-img" alt="..."/>
               <div class="d-flex card-img-overlay flex-column-reverse">
-                <p class="card-text">This is a wider card with supporting text </p>
+                <p class="card-text">Abetter stay for collage students</p>
                 <p class="card-text"><small>Last updated 3 mins ago</small></p>
-                <h5 class="card-title">Card title</h5>
+                <h5 class="card-title">Olive Homes</h5>
               </div>
             </Link>
           </div>
